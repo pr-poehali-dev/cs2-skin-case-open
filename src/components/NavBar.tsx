@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { ChartLineUp, FileContract, Gift, User } from "lucide-react";
+import { LineChart, FileContract, Gift, User } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const NavBar = () => {
@@ -12,7 +12,7 @@ const NavBar = () => {
         
         <div className="flex gap-6">
           <Link to="/upgrade" className="flex items-center gap-2 text-gray-200 hover:text-amber-500 transition-colors">
-            <ChartLineUp size={20} />
+            <LineChart size={20} />
             <span>Upgrade</span>
           </Link>
           
